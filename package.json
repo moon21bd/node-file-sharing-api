@@ -1,0 +1,35 @@
+{
+  "name": "file-sharing-api",
+  "version": "1.0.0",
+  "description": "File sharing api Server.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moon21bd/node-file-sharing-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "file",
+    "sharing",
+    "rest api"
+  ],
+  "author": "Raqibul Hasan Moon",
+  "email": "rhmoon21@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moon21bd/node-file-sharing-api/issues"
+  },
+  "homepage": "https://github.com/moon21bd/node-file-sharing-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "multer": "*",
+    "mysql2": "^2.3.3",
+    "sprintf-js": "^1.1.2"
+  }
+}
